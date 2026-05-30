@@ -82,10 +82,10 @@ export const ROLES = [
     ],
   },
   {
-    title: 'Backend Engineer',
+    title: 'AI/ML Engineer',
     type: 'Internship',
     company: 'Sithafal Technologies, Tirupati',
-    date: 'Feb 2025 – May 2025',
+    date: 'Feb 2025 – Apr 2025',
     points: [
       'Deployed ML pipelines via Azure DevOps, integrating backend components with frontend interfaces for end-to-end delivery.',
       'Managed cloud infrastructure for document processing and version control, ensuring 100% CI/CD reliability.',
@@ -102,23 +102,23 @@ export const ROLES = [
     ],
   },
   {
-    title: 'Application Developer Intern',
-    type: 'Internship',
-    company: 'Young Minds Technology Solutions',
-    date: '2021',
-    points: [
-      'Reduced runtime errors by 30% by debugging and optimizing Core Java codebases following strict OOP principles.',
-      'Designed RESTful APIs to facilitate robust client-server communication for enterprise-level applications.',
-    ],
-  },
-  {
     title: 'AI & ML Virtual Intern',
     type: 'Internship',
     company: 'Google (AICTE) Program',
-    date: '2021',
+    date: 'Jan 2024 - Mar 2024',
     points: [
       'Built predictive models using Python and TensorFlow, achieving an average accuracy of 85% across data-driven projects.',
       'Integrated ML models into software systems, focusing on maintaining performance during model deployment and scaling.',
+    ],
+  },
+  {
+    title: 'Application Developer Intern',
+    type: 'Internship',
+    company: 'Young Minds Technology Solutions',
+    date: 'April 2023 - June 2023',
+    points: [
+      'Reduced runtime errors by 30% by debugging and optimizing Core Java codebases following strict OOP principles.',
+      'Designed RESTful APIs to facilitate robust client-server communication for enterprise-level applications.',
     ],
   },
 ]
