@@ -3,7 +3,7 @@ import { CERTIFICATIONS } from '../data.js'
 export default function Certifications() {
   return (
     <section id="certifications" className="px-5 py-20 md:px-10 md:py-28">
-      <div className="mx-auto max-w-[1008px]">
+      <div className="mx-auto max-w-[1100px]">
         <h2 className="mb-10 font-bebas text-5xl text-slate md:text-6xl">
           Certifications<span className="text-purple">.</span>
         </h2>

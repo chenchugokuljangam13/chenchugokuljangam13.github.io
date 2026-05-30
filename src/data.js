@@ -15,7 +15,7 @@ export const LINKS = {
 }
 
 export const ABOUT_INTRO =
-  "I'm a Backend Engineer specializing in scalable, high-performance systems. Expert in Python, Java, and cloud-native architectures, I simplify complex systems into secure, maintainable applications. By leveraging AI, automation, and serverless solutions, to deliver robust backend environments that drive measurable technical impact and business efficiency."
+  "I'm a Software Development Engineer specializing in scalable, high-performance systems. Expert in Python, Java, and cloud-native architectures, I simplify complex systems into secure, maintainable applications. By leveraging AI, automation, and serverless solutions, to deliver robust backend environments that drive measurable technical impact and business efficiency."
 
 export const ABOUT_CARDS = [
   {
@@ -160,6 +160,7 @@ export const CERTIFICATIONS = [
 
 export const NAV_LINKS = [
   { label: 'About Me', href: '#about' },
-  { label: 'Certifications', href: '#certifications' },
+  { label: 'Experience', href: '#experience' },
   { label: 'Works & Projects', href: '#projects' },
+  { label: 'Certifications', href: '#certifications' },
 ]

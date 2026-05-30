@@ -45,7 +45,9 @@ export default function Projects() {
 
       <div className="mx-auto max-w-[1100px]">
         <div className="mb-12 flex flex-col gap-4">
-          <h2 className="font-bebas text-5xl text-slate md:text-6xl">Projects</h2>
+          <h2 className="font-bebas text-5xl text-slate md:text-6xl">
+            Projects<span className="text-purple">.</span>
+          </h2>
           <p className="max-w-2xl font-mono text-base leading-relaxed text-ink">
             From architecting high-traffic serverless systems at AntStack to developing AI-driven
             solutions, I specialize in building robust backend environments that scale with business

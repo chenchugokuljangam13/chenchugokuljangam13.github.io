@@ -1,24 +1,5 @@
-import { GithubIcon, LinkedinIcon, StarIcon } from './Icons.jsx'
+import { GithubIcon, LinkedinIcon } from './Icons.jsx'
 import { LINKS } from '../data.js'
-
-function Marquee() {
-  const items = ['GOKUL', 'GOCOOL', 'GOKUL', 'GOCOOL']
-  const loop = [...items, ...items]
-  return (
-    <div className="overflow-hidden">
-      <div className="marquee-track flex w-max animate-marquee items-center gap-12 md:gap-16">
-        {loop.map((word, i) => (
-          <div key={i} className="flex items-center gap-12 md:gap-16">
-            <span className="font-bebas text-7xl leading-[0.8] text-white md:text-9xl lg:text-[11rem]">
-              {word}
-            </span>
-            <StarIcon className="h-12 w-12 shrink-0 text-white md:h-20 md:w-20" />
-          </div>
-        ))}
-      </div>
-    </div>
-  )
-}
 
 export default function Contact() {
   return (
@@ -57,11 +38,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="mt-16">
-        <Marquee />
-      </div>
-
-      <div className="mx-auto max-w-page px-5 py-6 md:px-10">
+      <div className="mx-auto mt-20 max-w-page px-5 py-6 md:px-10">
         <p className="flex flex-col gap-1 font-mono text-xs text-white/40 md:flex-row md:justify-between">
           <span>© {new Date().getFullYear()} Chenchu Gokul Jangam</span>
           <span>Designed &amp; built by Gokul</span>

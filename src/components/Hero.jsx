@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="relative flex min-h-[100svh] items-center overflow-hidden px-5 pt-24 md:px-10"
+      className="relative flex items-center overflow-hidden px-5 pb-16 pt-28 md:px-10 md:pb-24 md:pt-32"
     >
       {/* Soft radial backdrop (Figma: radial-gradient behind the hero) */}
       <div
@@ -19,7 +19,7 @@ export default function Hero() {
         }}
       />
 
-      <div className="mx-auto flex w-full max-w-page flex-col items-center justify-center gap-8 md:flex-row md:gap-6 lg:gap-10">
+      <div className="mx-auto flex w-full max-w-page flex-col items-center justify-center gap-10 md:flex-row md:justify-center md:gap-12 lg:gap-16">
         {/* Name + role — right-aligned, to the left of the portrait, nudged down */}
         <div className="order-2 flex flex-col items-center gap-8 md:order-1 md:mt-24 md:items-end">
           <div className="flex flex-col items-center gap-3 md:items-end">
@@ -29,11 +29,11 @@ export default function Hero() {
               src={nameArt}
               alt="Jangam Gokul Chenchu"
               aria-hidden="true"
-              className="w-[260px] sm:w-[300px] lg:w-[330px]"
+              className="w-[220px] sm:w-[260px] lg:w-[340px] xl:w-[380px]"
             />
 
             <p className="font-space text-lg font-bold tracking-[-0.02em] text-ink md:text-xl">
-              Backend Engineer
+              Software Development Engineer
             </p>
           </div>
 
@@ -64,7 +64,7 @@ export default function Hero() {
           <img
             src={composite}
             alt="Chenchu Gokul Jangam"
-            className="h-auto w-[300px] sm:w-[360px] md:w-[420px] lg:w-[460px]"
+            className="w-auto h-[380px] sm:h-[460px] md:h-[520px] lg:h-[580px] max-h-[78svh]"
           />
         </div>
       </div>
