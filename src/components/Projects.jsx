@@ -1,4 +1,5 @@
 import { PROJECTS } from '../data.js'
+import Reveal from './Reveal.jsx'
 
 function ProjectCard({ project }) {
   const Wrapper = project.href ? 'a' : 'div'
@@ -44,7 +45,7 @@ export default function Projects() {
       />
 
       <div className="mx-auto max-w-[1100px]">
-        <div className="mb-12 flex flex-col gap-4">
+        <Reveal className="mb-12 flex flex-col gap-4">
           <h2 className="font-bebas text-5xl text-slate md:text-6xl">
             Projects<span className="text-purple">.</span>
           </h2>
@@ -53,11 +54,13 @@ export default function Projects() {
             solutions, I specialize in building robust backend environments that scale with business
             needs.
           </p>
-        </div>
+        </Reveal>
 
         <div className="grid gap-6 md:grid-cols-2">
-          {PROJECTS.map((p) => (
-            <ProjectCard key={p.title} project={p} />
+          {PROJECTS.map((p, i) => (
+            <Reveal key={p.title} direction="zoom" delay={(i % 2) * 50}>
+              <ProjectCard project={p} />
+            </Reveal>
           ))}
         </div>
       </div>

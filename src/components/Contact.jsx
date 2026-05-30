@@ -1,12 +1,13 @@
 import { GithubIcon, LinkedinIcon } from './Icons.jsx'
 import { LINKS } from '../data.js'
+import Reveal from './Reveal.jsx'
 
 export default function Contact() {
   return (
     <footer id="contact" className="border-t-[20px] border-purple bg-ink pt-20">
       <div className="mx-auto max-w-[1000px] px-5 md:px-10">
         <div className="flex flex-col items-start justify-between gap-10 md:flex-row md:items-end">
-          <div className="flex flex-col gap-5">
+          <Reveal direction="left" className="flex flex-col gap-5">
             <h2 className="font-bebas text-5xl text-white md:text-6xl">
               Say Hello<span className="text-purple">.</span>
             </h2>
@@ -17,9 +18,9 @@ export default function Contact() {
               <a href={`mailto:${LINKS.email}`} className="hover:text-purple">{LINKS.email}</a>
               <a href={`tel:${LINKS.phone}`} className="hover:text-purple">{LINKS.phone}</a>
             </div>
-          </div>
+          </Reveal>
 
-          <div className="flex flex-col items-start gap-5 md:items-end">
+          <Reveal direction="right" delay={80} className="flex flex-col items-start gap-5 md:items-end">
             <div className="flex items-center gap-6 text-white">
               <a href={LINKS.github} target="_blank" rel="noreferrer" aria-label="GitHub" className="transition-colors hover:text-purple">
                 <GithubIcon className="h-8 w-8" />
@@ -30,11 +31,11 @@ export default function Contact() {
             </div>
             <a
               href={`mailto:${LINKS.email}`}
-              className="rounded-full bg-white px-12 py-2 font-darker text-lg font-bold text-slate transition-transform hover:scale-[1.03]"
+              className="rounded-full bg-white px-12 py-2 font-darker text-lg font-bold text-slate transition-transform duration-200 ease-out hover:scale-[1.03] active:scale-[0.98]"
             >
               Connect
             </a>
-          </div>
+          </Reveal>
         </div>
       </div>
 

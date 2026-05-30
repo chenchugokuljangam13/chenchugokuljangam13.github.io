@@ -41,7 +41,7 @@ export default function Navbar() {
             href={LINKS.resume}
             target="_blank"
             rel="noreferrer"
-            className="rounded-md bg-ink px-6 py-2.5 font-darker text-lg font-bold text-page transition-colors hover:bg-purple"
+            className="rounded-md bg-ink px-6 py-2.5 font-darker text-lg font-bold text-page transition-[background-color,transform] duration-200 ease-out hover:bg-purple active:scale-[0.98]"
           >
             Download Resume
           </a>

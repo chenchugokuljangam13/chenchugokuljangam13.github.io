@@ -33,12 +33,9 @@ export default function Hero() {
               </span>
               <span className="flex items-end text-[72px] sm:text-[84px] lg:text-[108px] xl:text-[124px]">
                 GO
-                <span className="relative inline-block h-[0.82em] overflow-hidden animate-wordwidth">
-                  <span className="flex flex-col items-start leading-[0.82] text-purple animate-wordswap">
-                    <span>KUL</span>
-                    <span>COOL</span>
-                    <span>KUL</span>
-                  </span>
+                <span className="relative inline-block h-[0.82em] overflow-hidden align-bottom animate-wordwidth">
+                  <span className="absolute left-0 top-0 leading-[0.82] text-purple animate-fadekul">KUL</span>
+                  <span className="absolute left-0 top-0 leading-[0.82] text-purple animate-fadecool">COOL</span>
                 </span>
               </span>
               <span className="text-[72px] sm:text-[84px] lg:text-[108px] xl:text-[124px]">
