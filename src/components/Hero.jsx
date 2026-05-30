@@ -1,7 +1,6 @@
 import { GithubIcon, LinkedinIcon } from './Icons.jsx'
 import { LINKS } from '../data.js'
 import composite from '../assets/hero/composite.png'
-import nameArt from '../assets/hero/name.svg'
 
 export default function Hero() {
   return (
@@ -21,16 +20,31 @@ export default function Hero() {
 
       <div className="mx-auto flex w-full max-w-page flex-col items-center justify-center gap-10 md:flex-row md:justify-center md:gap-12 lg:gap-16">
         {/* Name + role — right-aligned, to the left of the portrait, nudged down */}
-        <div className="order-2 flex flex-col items-center gap-8 md:order-1 md:mt-24 md:items-end">
+        <div className="order-2 flex flex-col items-center gap-8 md:order-1 md:mt-[120px] md:items-end">
           <div className="flex flex-col items-center gap-3 md:items-end">
-            {/* Exact Figma name lettering (SVG → pixel-perfect, font-independent) */}
+            {/* Name lettering — live Bebas text so "KUL" can slide to "COOL" */}
             <h1 className="sr-only">Jangam Gokul Chenchu</h1>
-            <img
-              src={nameArt}
-              alt="Jangam Gokul Chenchu"
+            <div
               aria-hidden="true"
-              className="w-[220px] sm:w-[260px] lg:w-[340px] xl:w-[380px]"
-            />
+              className="flex flex-col items-center font-bebas leading-[0.82] tracking-wide text-slate md:items-end"
+            >
+              <span className="text-[72px] sm:text-[84px] lg:text-[108px] xl:text-[124px]">
+                JANGAM
+              </span>
+              <span className="flex items-end text-[72px] sm:text-[84px] lg:text-[108px] xl:text-[124px]">
+                GO
+                <span className="relative inline-block h-[0.82em] overflow-hidden animate-wordwidth">
+                  <span className="flex flex-col items-start leading-[0.82] text-purple animate-wordswap">
+                    <span>KUL</span>
+                    <span>COOL</span>
+                    <span>KUL</span>
+                  </span>
+                </span>
+              </span>
+              <span className="text-[72px] sm:text-[84px] lg:text-[108px] xl:text-[124px]">
+                CHENCHU
+              </span>
+            </div>
 
             <p className="font-space text-lg font-bold tracking-[-0.02em] text-ink md:text-xl">
               Software Development Engineer

@@ -27,10 +27,22 @@ export default {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-50%)' },
         },
+        wordswap: {
+          '0%, 42%': { transform: 'translateY(-1.64em)' },
+          '50%, 92%': { transform: 'translateY(-0.82em)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+        wordwidth: {
+          '0%, 42%': { width: '1.164em' },
+          '50%, 92%': { width: '1.536em' },
+          '100%': { width: '1.164em' },
+        },
       },
       animation: {
         marquee: 'marquee 30s linear infinite',
         'marquee-fast': 'marquee 20s linear infinite',
+        wordswap: 'wordswap 4s ease-in-out infinite',
+        wordwidth: 'wordwidth 4s ease-in-out infinite',
       },
     },
   },
