@@ -60,7 +60,7 @@ export const EXPERIENCE_INTRO =
 export const FEATURED_ROLE = {
   title: 'Backend Engineer - MTS 1',
   company: 'AntStack Technologies',
-  date: 'July 2025 – Present',
+  date: 'Jul 2025 – Present',
   type: 'Full-time',
   points: [
     'Architected serverless applications on AWS using Lambda, API Gateway, and DynamoDB to handle large-scale integrations.',
@@ -75,7 +75,7 @@ export const ROLES = [
     title: 'Backend Developer Intern',
     type: 'Internship',
     company: 'AntStack Technologies, Bangalore',
-    date: 'April 2025 – June 2025',
+    date: 'Apr 2025 – Jun 2025',
     points: [
       'Developed serverless logic using Python and JavaScript to ensure seamless data flow between cloud-native services.',
       'Refined backend performance by optimizing AWS Lambda execution and improving overall system scalability.',
@@ -92,10 +92,20 @@ export const ROLES = [
     ],
   },
   {
+    title: 'Engineer Trainee',
+    type: 'Traineeship',
+    company: 'Cognizant Technology Solutions, Chennai',
+    date: 'Dec 2024 – Jan 2025',
+    points: [
+      'Completed structured training in software engineering fundamentals, data structures, and full-stack development.',
+      'Built hands-on projects and collaborated in agile teams, applying core programming and problem-solving skills.',
+    ],
+  },
+  {
     title: 'Application Developer Intern',
     type: 'Internship',
     company: 'Young Minds Technology Solutions',
-    date: '',
+    date: '2021',
     points: [
       'Reduced runtime errors by 30% by debugging and optimizing Core Java codebases following strict OOP principles.',
       'Designed RESTful APIs to facilitate robust client-server communication for enterprise-level applications.',
@@ -104,7 +114,8 @@ export const ROLES = [
   {
     title: 'AI & ML Virtual Intern',
     type: 'Internship',
-    company: 'Google (AICTE) Program | 2021',
+    company: 'Google (AICTE) Program',
+    date: '2021',
     points: [
       'Built predictive models using Python and TensorFlow, achieving an average accuracy of 85% across data-driven projects.',
       'Integrated ML models into software systems, focusing on maintaining performance during model deployment and scaling.',

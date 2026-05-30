@@ -59,7 +59,10 @@ export default function Experience() {
                 <h4 className="font-darker text-xl font-bold text-white">{role.title}</h4>
                 <Tag light>{role.type}</Tag>
               </div>
-              <p className="font-darker text-base font-semibold text-white">{role.company}</p>
+              <p className="font-darker text-base font-semibold text-white">
+                {role.company}
+                {role.date ? <span className="text-white/50"> · {role.date}</span> : null}
+              </p>
               <div className="h-px w-full bg-white/30" />
               <Bullets points={role.points} className="text-sm" />
             </div>
