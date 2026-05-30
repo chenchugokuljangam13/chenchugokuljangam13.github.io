@@ -1,0 +1,16 @@
+node_modules
+dist
+dist-ssr
+figma-assets
+*.local
+.DS_Store
+.vite
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Claude Code / scratch
+.claude/
+.tmp-shots/
+*.log
