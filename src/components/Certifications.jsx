@@ -10,11 +10,8 @@ export default function Certifications() {
 
         <div className="grid gap-4 sm:grid-cols-2">
           {CERTIFICATIONS.map((c) => (
-            <a
+            <div
               key={c.title}
-              href={c.href}
-              target="_blank"
-              rel="noreferrer"
               className="group flex items-center justify-between gap-4 rounded-xl border border-slate/20 bg-white/50 p-5 transition-colors hover:border-purple"
             >
               <span className="font-darker text-lg font-semibold text-slate">
@@ -23,7 +20,7 @@ export default function Certifications() {
               <span className="shrink-0 font-mono text-sm text-graymid transition-colors group-hover:text-purple">
                 {c.date}
               </span>
-            </a>
+            </div>
           ))}
         </div>
       </div>

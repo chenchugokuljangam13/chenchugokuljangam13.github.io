@@ -1,14 +1,10 @@
 import { ABOUT_INTRO, ABOUT_CARDS, SKILL_PILLS } from '../data.js'
 
-function Card({ title, body, accent }) {
+function Card({ title, body }) {
   return (
-    <div
-      className={`flex flex-col gap-3 rounded-2xl p-6 transition-transform hover:-translate-y-1 ${
-        accent ? 'bg-purple text-white' : 'border border-slate/30 bg-transparent text-slate'
-      }`}
-    >
+    <div className="group flex flex-col gap-3 rounded-2xl border border-slate/30 bg-transparent p-6 text-slate transition-all hover:-translate-y-1 hover:border-purple hover:bg-purple hover:text-white">
       <h3 className="font-darker text-2xl font-bold leading-tight">{title}</h3>
-      <p className={`font-space text-base leading-relaxed ${accent ? 'text-white/80' : 'text-ink'}`}>
+      <p className="font-space text-base leading-relaxed text-ink group-hover:text-white/80">
         {body}
       </p>
     </div>
