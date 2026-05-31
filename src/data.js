@@ -11,7 +11,7 @@ export const LINKS = {
   leetcode: 'https://leetcode.com/u/ChenchuGokulJangam13/',
   email: 'jangamchenchugokul@gmail.com',
   phone: '+918096452188',
-  resume: '/resume.pdf',
+  resume: '/Jangam_Chenchu_Gokul_Resume.pdf',
 }
 
 export const ABOUT_INTRO =
