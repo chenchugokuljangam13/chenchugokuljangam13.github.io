@@ -65,8 +65,7 @@ export const SKILL_PILLS = [
 ];
 
 export const EXPERIENCE_INTRO =
-  'From architecting high-traffic serverless systems at AntStack to developing AI-driven solutions, I specialize in building robust backend environments that scale with business needs.'
-
+  'From building scalable cloud-native backend systems at AntStack to developing production-oriented AI/ML and Generative AI solutions at HashedIn, I specialize in turning complex engineering and AI challenges into secure, scalable applications.';
 export const FEATURED_ROLE = {
   title: 'SDE-I — AI/ML & Data Engineer',
   company: 'HashedIn by Deloitte USI',
