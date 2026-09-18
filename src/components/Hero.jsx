@@ -44,7 +44,7 @@ export default function Hero() {
             </div>
 
             <p className="font-space text-lg font-bold tracking-[-0.02em] text-ink md:text-xl">
-              Software Development Engineer
+              AI/ML & Generative AI Engineer
             </p>
           </div>
 
