@@ -15,76 +15,83 @@ export const LINKS = {
 }
 
 export const ABOUT_INTRO =
-  "I'm a Software Development Engineer specializing in scalable, high-performance systems. Expert in Python, Java, and cloud-native architectures, I simplify complex systems into secure, maintainable applications. By leveraging AI, automation, and serverless solutions, to deliver robust backend environments that drive measurable technical impact and business efficiency."
+  "I’m an AI/ML and Generative AI Engineer specializing in building scalable, high-performance AI and backend systems. Experienced in Python, Java, AWS, LLM integrations, RAG, AI agents, MCP, and data engineering, I simplify complex AI and distributed-system requirements into secure, maintainable applications. By combining Generative AI, agentic workflows, automation, and cloud-native architectures, I deliver production-ready solutions that drive measurable technical impact and business efficiency."
 
 export const ABOUT_CARDS = [
   {
-    title: 'Scalable Backend Developer',
-    body: 'Architecting high-traffic microservices and event-driven systems using Python, Java, and Go.',
+    title: 'Generative AI Engineer',
+    body: 'Building production-ready LLM applications, RAG systems, AI agents, and intelligent workflows using Python and modern AI technologies.',
     accent: true,
   },
   {
-    title: 'Cloud & Infrastructure Architect',
-    body: 'Designing serverless and containerized environments (AWS, Docker, K8s) with automated CI/CD.',
+    title: 'Agentic AI & LLM Systems',
+    body: 'Designing agentic workflows with MCP, tool calling, prompt engineering, context engineering, and AI orchestration.',
   },
   {
-    title: 'Data & AI Solutions Engineer',
-    body: 'Building intelligent pipelines, RAG implementations, and large-scale processing with PySpark.',
+    title: 'Cloud & AI Architect',
+    body: 'Engineering scalable AI and backend systems on AWS using serverless, microservices, containers, and automated CI/CD.',
   },
   {
-    title: 'System Design Specialist',
-    body: 'Optimizing performance through advanced DSA, reliability patterns, and secure database tuning.',
+    title: 'Backend & Data Engineer',
+    body: 'Building secure, high-performance APIs, data pipelines, and large-scale processing systems using Java, Python, SQL, and PySpark.',
   },
-]
+];
 
 export const SKILL_PILLS = [
+  'Generative AI',
+  'LLMs & RAG',
+  'AI Agents',
+  'MCP',
+  'Prompt Engineering',
+  'Context Engineering',
+  'Tool Calling',
+  'LLM Evaluation',
+  'AI Guardrails',
   'Python',
   'Java',
-  'Go',
-  'JavaScript',
   'TypeScript',
   'AWS',
-  'Docker',
-  'K8s',
-  'PySpark',
-  'Spring Boot',
-  'Spring Security',
-  'System Design & LLD',
-  'Lambda',
-  'State Machine',
-  'SQS',
-  'DynamoDB & RDS',
-  'SQL / PostgreSQL',
+  'Amazon Bedrock',
   'Serverless',
-  'RAG / LLMs',
+  'Spring Boot',
+  'Microservices',
+  'PySpark',
+  'SQL / PostgreSQL',
+  'Docker',
+  'Kubernetes',
+  'System Design',
   'CI/CD',
-  'LLM Guardrails',
-  'AI Integration',
-  'AI Cost Optimization',
-  'Model Harness',
   'AI Security',
-  'Multi Agents',
-  'Data Structures',
-  'Algorithms'
-]
+];
 
 export const EXPERIENCE_INTRO =
   'From architecting high-traffic serverless systems at AntStack to developing AI-driven solutions, I specialize in building robust backend environments that scale with business needs.'
 
 export const FEATURED_ROLE = {
-  title: 'Backend Engineer - MTS 1',
-  company: 'AntStack Technologies',
-  date: 'Jul 2025 – Present',
+  title: 'SDE-I — AI/ML & Data Engineer',
+  company: 'HashedIn by Deloitte USI',
+  date: 'May 2026 – Present',
   type: 'Full-time',
   points: [
-    'Architected serverless applications on AWS using Lambda, API Gateway, and DynamoDB to handle large-scale integrations.',
-    'Engineered microservices with Spring Boot and Go, deploying to ECS, RDS, and Redshift for high-performance data processing.',
-    'Optimized DevOps workflows by building custom GitHub Actions and automating secret management via GitHub APIs.',
-    'Implemented AI-driven automation using LLMs and agents to streamline internal development and operational efficiency.',
+    'Developing AI/ML and Generative AI solutions using Python, LLMs, RAG, and agentic workflows for production-oriented applications.',
+    'Building AI-powered applications and integrations, including healthcare-focused workflows, chatbots, and human-in-the-loop clinical assistance systems.',
+    'Engineering scalable data and AI pipelines using Python, PySpark, AWS, and cloud-native services to support reliable data processing and intelligent applications.',
+    'Designing secure and maintainable AI integrations with prompt engineering, LLM evaluation, guardrails, and controlled data access.',
+    'Developing backend services and APIs using Java, Spring Boot, and AWS, integrating AI capabilities into scalable microservice architectures.',
+    'Leveraging agentic AI, MCP, tool calling, and automation to streamline development workflows and improve application capabilities.'
   ],
 }
-
 export const ROLES = [
+  {
+    title: 'Backend Engineer - MTS 1',
+    company: 'AntStack Technologies',
+    date: 'Jul 2025 – May 2026',
+    type: 'Full-time',
+    points: [
+      'Integrated LLMs and AI agents into backend workflows to automate development and operational processes.',
+      'Designed and deployed scalable Java/Spring Boot services on AWS using Lambda, API Gateway, DynamoDB, ECS, and RDS.',
+    ],
+  },
   {
     title: 'Backend Developer Intern',
     type: 'Internship',
